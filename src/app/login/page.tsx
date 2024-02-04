@@ -103,10 +103,10 @@ export default function Login() {
           <Link href="/signup" className="text-blue-500">
             회원가입
           </Link>
-          <span className="mx-2">|</span>
+          {/* <span className="mx-2">|</span>
           <a href="#" className="text-blue-500">
             비밀번호 찾기
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

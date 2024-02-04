@@ -131,7 +131,7 @@ interface Board {
 }
 
 const MainBoard = () => {
-    const ITEMS_PER_PAGE = 15;
+    const ITEMS_PER_PAGE =5;
 
   const [boardData, setBoardData] = useState<Board[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -195,7 +195,7 @@ const MainBoard = () => {
   return (
     <div className='flex flex-col'>
       <div className='text-4xl text-center mt-10'>
-        <h1>게시판</h1>
+        <h1>위키페이지</h1>
       </div>
 
       <div className="h-[600px] bg-gray-50 mt-5 overflow-y-scroll text-center flex flex-col justify-center items-center">
